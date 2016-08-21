@@ -192,7 +192,6 @@ BOOL CHRManagerDlg::OnInitDialog()
 	
 	print_base_data(nameArrayOfApplicant);
 	
-	// 
 
 	for (int i = 0; i < last_data_index; i++){
 		hChild = treeCtrl.InsertItem(nameArrayOfApplicant[i], 1/* nImage */, 1/* nSelectedImage */, hRoot, TVI_LAST);
